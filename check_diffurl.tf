@@ -1,5 +1,5 @@
 module "first-dep" {
-  source  = "git@github.com:cloudposse/terraform-aws-elasticache-redis.git?ref=tags/0.42.0"
+  source  = "git@github.com:cloudposse/terraform-aws-elasticache-redis.git?ref=tags/0.46.0"
   name = "it supposed to be updated by dependabot"
 }
 
