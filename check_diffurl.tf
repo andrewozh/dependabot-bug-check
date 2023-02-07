@@ -5,7 +5,7 @@ module "first-dep" {
 
 module "second-dep" {
   source  = "terraform-aws-modules/rds-aurora/aws"
-  version = "6.2.0"
+  version = "7.6.1"
 
   name = "it supposed not to be updated by dependabot"
 
